@@ -60,4 +60,6 @@ torgersen_penguins <- torgersen_penguins |>
    pivot_longer(-c(species, sex), values_to = "count")
 # lesson 7:
 # "unite" is the function to combine multiple columns in a dataframe, remove = F will keep the original columns, if not it will replace the original columns with new merged column
-# 
+# to delete a branch "git branch -d data-manip"
+# new branch - "functions"
+ # 
